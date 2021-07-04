@@ -28,9 +28,6 @@
 <body>
 <div class="container" >
     <h1>Сделка успешно добавлена!</h1>
-    <div><?php echo $_POST['id']; foreach ($contacts as $contact) {
-            if ($contact['id'] > 0){echo $contact['id'];}
-        }?></div>
     <button  type="button" class="btn btn-secondary" onclick="window.location.href='index.php'">Вернуться назад</button>
 </div>
 

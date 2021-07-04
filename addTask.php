@@ -25,7 +25,6 @@
 <body>
 <div class="container" >
     <h1>Задача успешно добавлена!</h1>
-    <div><?php echo $_POST['id'];?></div>
     <button  type="button" class="btn btn-secondary" onclick="window.location.href='index.php'">Вернуться назад</button>
 </div>
 
